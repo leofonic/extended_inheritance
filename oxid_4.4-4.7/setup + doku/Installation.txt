@@ -1,0 +1,59 @@
+﻿------------------------------------------
+OXID-MODUL "EXTENDED INHERITANCE"
+------------------------------------------
+
+
+Mit dem Modul können zusätzliche Felder angegeben werden, die Varianten von den Vaterartikeln erben sollen. 
+Das Modul ist vorkonfiguriert für die Vererbung des Gewichts und der ABC-Preise an die Varianten, kann aber auch für andere
+Felder verwendet werden.
+
+Bei Fragen, Kritik bzw. Problemen erreichen Sie uns wie folgt:
+Frank Zunderer
+Waldstr. 22
+82205 Gilching
+Tel.: +49-8105-777250
+e-Mail: it-beratung@zunderer.de
+
+
+
+Installationsvoraussetzungen:
+- OXID eshop ab 4.5.0 (für andere Versionen bitte an uns wenden)
+
+
+
+Installation Shopversion ab 4.6.0:
+-------------
+1) Kopieren Sie bitte alle vorliegenden Dateien aus dem Verzeichnis "copy_this" in den Shop. 
+   Behalten Sie die Verzeichnisstruktur bei!
+
+2) Aktivieren Sie das Modul im Oxid-Backend unter "Erweiterungen/Module".
+   
+3) Tragen Sie in den Einstellungen des Moduls die gewünschten Felder ein.
+
+
+
+Installation OXID Version 4.4.x - 4.5.x:
+-------------
+1) Kopieren Sie bitte alle vorliegenden Dateien aus dem Verzeichnis "copy_this" in den Shop. 
+   Behalten Sie die Verzeichnisstruktur bei!
+
+
+2) Modul aktivieren über Admin -> Stammdaten -> Grundeinstellungen -> System ->  Textfeld "Module"
+   Hier folgendes eintragen:
+
+   oxarticle => extended_inheritance/core/extended_inheritance_oxarticle
+
+   Achtung: Wenn in Ihrem Shop bereits die genannten Klassen per Modul erweitert wurden, 
+   muß das Modul an die bestehende Erweiterung gehängt werden.
+
+   Beispiel:
+   oxarticle => anderes_Modul&extended_inheritance/core/extended_inheritance_oxarticle
+   
+3) Fügen Sie folgende Zeilen in der Datei config.inc.php am Ende an:
+
+   // Modul extended inheritance (ermöglicht Vererbung von Vaterartikeln auf Varianten)
+   // In aInheritFields können die Felder angegeben werden, die immer vererbt werden, in aDoubleCopyFields
+   // numerische Felder, die vererbt werden wenn der Wert bei der Variante 0 ist.
+   $this->aInheritFields = array();
+   $this->aDoubleCopyFields = array('oxarticles__oxweight','oxarticles__oxpricea','oxarticles__oxpriceb','oxarticles__oxpricec');
+

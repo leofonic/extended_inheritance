@@ -1,0 +1,32 @@
+﻿Zunderweb
+
+http://www.zunderweb.de
+
+Frank Zunderer
+Waldstr. 22
+82205 Gilching
+Tel.: +49-8105-777250
+e-Mail: oxid@zunderer.de
+
+Lizenzbedingungen für OXID-Module und Templates:
+
+Sie sind berechtigt, das Modul/Template in einem OXID-eShop CE/PE/EE und auf beliebig 
+vielen nicht öffentlichen Entwicklungsrechnern einzusetzen. 
+Sie sind auch berechtigt, das Modul/Template nach Ihren Bedürfnissen zu modifizieren, 
+kostenfreier Support ist für eigene Modifikationen allerdings nicht möglich.
+
+Alle urheberrechtlichen und gewerblichen Schutzrechte an der Software verbleiben beim 
+Hersteller. Vervielfältigung des Moduls/Templates ist nur für den betriebsintern 
+notwendigen Gebrauch gestattet.
+ 
+Falls Patches (Änderungen an der dritten Stelle der Versionsnummer) für das 
+Modul/Template erhältlich sind, können Sie diese Patches innerhalb eines Zeitraums 
+von 12 Monaten nach Ihrer Bestellung kostenfrei von uns beziehen. 
+
+Updates und Upgrades (Änderungen an den ersten zwei Stellen der Versionsnummer) 
+sind, falls verfügbar, auf Anfrage zu vergünstigten Konditionen erhältlich. 
+
+Eine Haftung für durch die Installation oder Benutzung des Moduls/Templates verursachte 
+Aufwände oder sonstige Schäden ist ausgeschlossen. Der Kunde ist in jedem Falle für die 
+Datensicherung selbst verantwortlich und verpflichtet, dies in technisch geeigneter 
+Weise durchzuführen.
