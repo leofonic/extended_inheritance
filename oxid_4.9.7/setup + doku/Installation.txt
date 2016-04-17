@@ -1,0 +1,32 @@
+﻿------------------------------------------
+OXID-MODUL "EXTENDED INHERITANCE"
+------------------------------------------
+
+
+Mit dem Modul können zusätzliche Felder angegeben werden, die Varianten von den Vaterartikeln erben sollen. 
+Das Modul ist vorkonfiguriert für die Vererbung des Gewichts und der Lieferzeit an die Varianten, kann aber auch für andere
+Felder verwendet werden.
+
+Bei Fragen, Kritik bzw. Problemen erreichen Sie uns wie folgt:
+Frank Zunderer
+Waldstr. 22
+82205 Gilching
+Tel.: +49-8105-777250
+e-Mail: it-beratung@zunderer.de
+
+angepasst an 4.9.7 von htmh.de
+
+Installationsvoraussetzungen:
+- OXID eshop ab 4.9.7
+
+
+
+Installation Shopversion ab 4.9.7:
+-------------
+1) Kopieren Sie bitte alle vorliegenden Dateien aus dem Verzeichnis "copy_this" in den Shop. 
+   Behalten Sie die Verzeichnisstruktur bei!
+
+2) Aktivieren Sie das Modul im Oxid-Backend unter "Erweiterungen/Module".
+   
+3) Tragen Sie in den Einstellungen des Moduls die gewünschten Felder ein.
+
